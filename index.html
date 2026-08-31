@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estefane de Lima</title>
+    <link rel="stylesheet" href="assets/style/head.css">
+    <link rel="stylesheet" href="assets/style/main.css">
+    <link rel="stylesheet" href="assets/style/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="head-cv">
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre mim</a></li>
+                <li><a href="#info-projects">Projetos</a></li>
+                <li><a href="#experience">Experiência</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <section class="personal-presentation">
+            <img src="assets/img/foto_pessoal.jpeg" alt="Foto pessoal de Estefane de Lima" class="foto-pessoal">
+        </section>
+        <section class="bio">
+            <h1>Estefane de Lima</h1>
+            <p>Construo <span>soluções</span> utilizando dados!</p>
+            <div id="grafico"></div>
+        </section>
+    </header>
+    <main class="main-cv">
+        <section id="sobre-mim">
+            <div class="title-section">
+                <h2>Sobre mim</h2>
+                <div class="grafico-title-section"></div>
+           </div>
+            <div class="content">
+                <div class="texto-sobre-mim">
+                    <p>Tive o meu primeiro contato com a área da tecnologia aos 16 anos, quando participei do programa EDUTECH e comecei a programar sistemas em JavaScript. Atualmente, estou no penúltimo ano do curso de Engenharia de Computação na UTFPR - Campus Apucarana, onde pude consolidar a minha paixão por tecnologia e construir uma base sólida em matemática e computação. 
+                       Durante a minha graduação, participei de ações que me permitiram transformar o meu conhecimento em impacto social, além de desenvolver competências como proatividade, liderança e trabalho em equipe. </p><p>Faço Iniciação Científica (IC) na área de Aprendizado de Máquina Automatizado (AutoML) e estudo algoritmos de aprendizado supervisionado, utilizando técnicas de otimização de hiperparâmetros para melhorar o desempenho de modelos. Estou me aprofundando na área de Data Science, desde a captação de dados, limpeza e extração de características até a aplicação de modelos de Machine Learning e a construção de pipelines completos. Busco oportunidades onde posso utilizar os meus conhecimentos como uma ferramenta para construir soluções e causar impacto social. É isso o que me move e me permite utilizar a computação para resolver problemas.</p>
+                </div>
+                <h3>Áreas de interesse</h3>
+                <div id="polar-chart"></div>
+            </div>
+        </section>
+        <section id="info-projects">
+            <div class="title-section">
+                <h2>Principais projetos</h2>
+                <div class="grafico-title-section"></div>
+            </div>
+            <div class="projects">
+                <div class="projects-items" id="site-dengue">
+                    <div class="title-project">
+                        <h3>Sistema para Divulgar Dados sobre a Dengue</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Website para divulgar os casos de Dengue em tempo real. Feito para a Secretaria Municipal de Saúde do município de Apucarana, PR. Utiliza API para coletar dados e gráficos dinâmicos utilizando ChartJS.</p>
+                        <a href="https://dengue.apucarana.pr.gov.br" target="_blank"><button type="button"><div class="top-arrow"></div>ACESSE<div class="bottom-arrow"></div></button></a>
+                        <p><bold>Ferramentas principais:</bold> HTML | CSS | JavaScript | API Google Sheets | ChartJS</p>
+                    </div>
+                    <div class="label-projeto label-projeto-destaque">Projeto<br>destaque!</div>
+                </div>
+
+                <div class="projects-items" id="ic">
+                    <div class="title-project">
+                        <h3>Sistema de Recomendação de Otimização de Hiperparâmetros</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Visa descobrir se meta-features baseadas em ELA podem auxiliar a identificar se algoritmos de Machine Learning, especialmente SVMs, devem utilizar os hiperparâmetros default ou não. Projeto desenvolvido a partir da tese de doutorado do prof. Rafael Gomes Mantovani.</p>
+                        <a href="https://github.com/codeestefane/hyperparameter_tuning_recommendation" target="_blank"><button type="button"><div class="top-arrow"></div>Acesse<div class="bottom-arrow"></div></button></a>
+                        <p><bold>Ferramentas principais:</bold> Python | R | scikit-learn | scikit-optimize | pandas | numpy | matplotlib | seaborn</p>
+                    </div>
+                    <div class="label-projeto label-projeto-atual">Projeto<br>atual!</div>
+                </div>
+
+                <div class="projects-items" id="ml-scratch">
+                    <div class="title-project">
+                        <h3>Machine Learning from scratch</h3>
+                    </div>
+                    <div class="project-content">
+                        <p>Projeto didático para estudar o funcionamento dos principais algoritmos de aprendizado supervisionado. Todos foram desenvolvidos utilizando Python.</p>
+                        <a href="https://github.com/codeestefane/algoritmos-machine-learning" target="_blank"><button><div class="top-arrow"></div>Acesse<div class="bottom-arrow"></div></button></a>
+                        <p><bold>Ferramentas principais:</bold> Python | pandas | numpy | matplotlib</p>
+                    </div>
+                    <div class="label-projeto label-projeto-concluido">Projeto<br>concluído!</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="title-section">
+                <h2>Experiência</h2>
+                <div class="grafico-title-section"></div>
+            </div>
+
+            <div class="card" id="cnpq">
+                <h3>Bolsista de IC em Automated Machine Learning (AutoML)</h3>
+                <h4>2025 - Atualmente</h4>
+                <div class="card-content">
+                    <div>
+                        <p>Desenvolvo um Sistema de Recomendação de Otimização de Hiperparâmetros. Meu objetivo é
+                            definir a melhor configuração para um algoritmo de Machine Learning, de acordo com o
+                            problema a ser resolvido e o desempenho desejado. Minha pesquisa foi aceita no Encontro
+                            Nacional de Inteligência Artificial e Computacional (ENIAC) de 2026 e foi classificada como
+                            inovadora e promissora.</p>
+                            <p><bold>Palavras-chave:</bold> Machine Learning | Otimização | Meta-learning | AutoML </p>
+                        </div>
+                        <div class="seletor_imagens_card">
+                            <img src="assets/img/cnpq-conselho-nacional-de-desenvolvimento-cientifico-e-tecnologico.png" alt="Logotipo CNPq">
+                        </div>
+                </div>
+                </div>
+
+            <div class="card" id="codificadoras">
+                <h3>Confundadora e Presidente do Projeto Codificadoras</h3>
+                <h4>2024 - Atualmente</h4>
+                <div class="card-content">
+                    <div>
+                        <p>Cofundei o projeto Codificadoras: uma iniciativa para incentivar mulheres a ingressarem e
+                            permanecerem na área da computação. Ministrei oficinas de programação para +50 alunas do
+                            ensino médio, organizei rodas de conversa e liderei a equipe executora do projeto. O
+                            Codificadoras recebeu uma moção de aplausos pela prefeitura de Apucarana devido aos
+                            serviços prestados para a comunidade.
+                        </p>
+                        <p><bold>Palavras-chave:</bold> Liderança | Gestão | Comunicação | Planejamento </p>
+                    </div>
+                    <div class="seletor_imagens_card">
+                        <img src="assets/img/logo-codificadoras.png" alt="Logotipo Codificadoras">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="rotaract">
+                <h3>Diretora de Protocolo do Rotaract Club de Apucarana Universidade</h3>
+                <h4>2025 - 2026</h4>
+                <div class="card-content">
+                    <div>
+                        <p>Ordenei e introduzi as reuniões do meu clube. Também promovi eventos para aumentar a visibilidade do Rotaract e desenvolver habilidades de oratória. Essa experiência me ajudou a entender a importância de servir e ajudar o próximo por meio do voluntariado.</p>
+                        <p><bold>Palavras-chave:</bold> Oratória | Trabalho em equipe | Proatividade | Gestão </p>
+                    </div>
+                    <div class="seletor_imagens_card">
+                        <img src="assets/img/rotaract.png" alt="Logotipo Rotaract">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card" id="capacitacao-fundamentos-tecnologias-web">
+                <h3>Bolsista do Projeto Fundamentos de Tecnologias Web e Python</h3>
+                <h4>2024 - 2025</h4>
+                <div class="card-content">
+                    <div>
+                        <p>Ministrei aulas de HTML, CSS, JavaScript e Python para +60 professores da rede estadual de ensino.
+                        Ensinei conceitos de lógica de programação e pensamento computacional, além de
+                        desenvolver habilidades como comunicação e trabalho em equipe</p>
+                        <p><bold>Palavras-chave:</bold> Programação | Trabalho em equipe | Comunicação | Didática </p>
+                    </div>
+                    <div class="seletor_imagens_card">
+                        <img src="assets/img/logo_utfpr.png" alt="Logotipo UTFPR-AP">   
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contato">
+        <div class="icones-redes-sociais">
+            <a href="mailto:codeestefane@gmail.com" target="_blank"><img src="assets/img/o-email.png" href="https://www.flaticon.com/br/icones-gratis/o-email" alt="Ícone de e-mail"></a>
+            <a href="https://github.com/codeestefane" target="_blank"><img src="assets/img/github.png" href="https://www.flaticon.com/br/icones-gratis/github" alt="Ícone do Github"></a>
+            <a href="https://www.linkedin.com/in/estefane-de-lima/" target="_blank"><img src="assets/img/linkedin.png" href="https://www.flaticon.com/br/icones-gratis/linkedin" alt="Ícone do LinkedIn"></a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

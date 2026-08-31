@@ -1,0 +1,298 @@
+.main-cv {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.grafico-title-section {
+    width: 40%;
+    max-height: 150px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#info-projects, #experience {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    padding-bottom: 50px;
+}
+
+.title-section {
+    width: 100%;
+    padding: 60px 10%;
+    background-color: #2a1616;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-cv h2 {
+    padding: 40px 0;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left; 
+}
+
+canvas {
+    width: 100%; 
+}
+
+#sobre-mim {
+    width: 100%;
+    min-height: 80vh; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+#sobre-mim #polar-chart {
+    width: 100%;
+}
+
+#sobre-mim .content {
+    width: 80%;
+    padding: 50px 10%;
+}
+
+#sobre-mim .content h3 {
+    padding: 30px 0;
+    font-weight: bold;
+}
+
+#sobre-mim .content .texto-sobre-mim {
+    width: 100%;
+}
+
+.projects {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.project-item-bullet {
+    width: 30px;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+}
+
+.projects .projects-items {
+    width: 80%;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 60px;
+    border-radius: 25px;
+} 
+
+.project-content {
+    width: 100%;
+    padding: 20px 20%;
+}
+
+.label-projeto {
+    font-size: 12px;
+    padding: 20px;
+    font-weight: bold;
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #5B022E;
+    border-radius: 0 0 25px 0;
+    color: #fff;
+}
+
+.label-projeto-atual {
+    background-color: #7F184B;
+}
+
+.label-projeto-concluido {
+    background-color: #9A3164;
+}
+
+p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+#site-dengue .title-project {
+    width: 100%;
+    background-color: #5B022E;
+    color: #fff;
+    padding: 30px 0;
+}
+
+#ic .title-project {
+    width: 100%;
+    background-color: #7F184B;
+    color: #fff;
+    padding: 30px 0;
+}
+
+#ml-scratch .title-project {
+    width: 100%;
+    background-color: #9A3164;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.projects .projects-items button {
+    padding: 25px;
+    border: none;
+    background-color: inherit;
+    text-transform: uppercase;
+    font-weight: 800;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 20px 0;
+    position: relative;
+    background: linear-gradient(to left, #fff 80%, #7F184B 20%);
+    transition: all 0.5s ease-in-out;
+}
+
+.projects #site-dengue button {
+    background: linear-gradient(to left, #fff 80%, #5B022E 20%);
+}
+
+.projects #ml-scratch button {
+    background: linear-gradient(to left, #fff 80%, #9A3164 20%);
+}
+
+.projects button:hover {
+    color: #fff;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.projects .projects-items button:hover {
+    background: linear-gradient(to right, #7F184B 100%, #fff 0%);
+}
+
+.projects #site-dengue button:hover {
+    background: linear-gradient(to right, #5B022E 100%, #fff 0%);
+}
+
+.projects #ml-scratch button:hover {
+    background: linear-gradient(to right, #9A3164 100%, #fff 0%);
+}
+
+.top-arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000; 
+    position: absolute;
+    top: -2.5px;
+    left: -5px;
+    transform: rotate(180deg);
+}
+
+.bottom-arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    position: absolute;
+    bottom: -2.5px;
+    right: -5px;
+    transform: rotate(270deg);
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+}
+
+#experience .title-section {
+    background-color: #2a1616;
+}
+
+#experience .card {
+    width: 64%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
+#experience .card h3 {
+    width: 100%;  
+    border-radius: 25px 25px 0 0;
+    text-align: left;
+    padding-left: 50px;
+    text-decoration: dotted;
+}
+
+#experience .card h4 {
+    text-align: left;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+#experience .card .card-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+
+#experience .card img {
+    width: 200px;
+    margin-left: 50px;
+}
+
+
+#experience .card .seletor_imagens_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin-right: 50px;
+    position: relative;
+    border-radius: 25px;
+}
+
+#experience .carrossel-imagens {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#experience .carrossel-imagens img {
+    width: 200px;
+}
