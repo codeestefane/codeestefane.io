@@ -314,6 +314,10 @@ h3 {
         font-size: 18px;
     }
 
+    p, h3 {
+        line-height: 1.75em;
+    }
+
     #sobre-mim .content {
         width: 100%;
         padding: 20px 10%;
