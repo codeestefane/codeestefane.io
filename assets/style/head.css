@@ -141,16 +141,12 @@ span {
         margin: 0 auto;
     }
 
-    nav ul li {
-        padding: 10px;
-    }
-
     .bio canvas {
         width: 100%;
     }
 
     nav {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     nav ul {
