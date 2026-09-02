@@ -303,15 +303,15 @@ h3 {
     }
 
     p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     h3 {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     h4 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     #sobre-mim .content {
@@ -349,6 +349,10 @@ h3 {
 
     #experience .carrossel-imagens img {
         width: 50px;
+    }
+
+    .title-project {
+        padding: 30px 15px;
     }
 }
 
