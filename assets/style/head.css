@@ -106,4 +106,75 @@ span {
 #grafico {
     width: 100%;
     max-height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+@media (max-width: 750px) {
+    .head-cv {
+        flex-direction: column;
+    }
+
+    .head-cv h1 {
+        font-size: 28px;
+    }
+
+    .head-cv .foto-pessoal {
+        width: 150px;
+    }
+
+    .head-cv p {
+        font-size: 16px;
+    }
+
+    #grafico {
+        max-height: 150px;
+    }
+
+    .head-cv section {
+        padding: 0 20px;
+    }
+
+    .bio {
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    .bio canvas {
+        width: 100%;
+    }
+
+    nav {
+        font-size: 10px;
+    }
+
+    nav ul {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 1200px) {
+    .head-cv .foto-pessoal {
+        width: 300px;
+    }
+
+    .head-cv section {
+        padding: 0 20px;
+    }
+
+    .head-cv h1 {
+        font-size: 38px;
+    }
+
+    .head-cv p {
+        font-size: 20px;
+    }
+
+}
+

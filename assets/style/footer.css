@@ -28,3 +28,11 @@ footer .icones-redes-sociais img {
 footer .icones-redes-sociais a:hover {
     scale: 1.2;
 }
+
+
+@media (max-width: 750px) {
+    footer .icones-redes-sociais img {
+        width: 25px;
+        margin: 0 10px;
+    }
+}
