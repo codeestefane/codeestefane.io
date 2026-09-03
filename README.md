@@ -2,7 +2,7 @@
 
 Um portfólio profissional interativo desenvolvido com **HTML**, **CSS** e **JavaScript**, apresentando projetos, experiências e áreas de interesse em Engenharia de Computação, Data Science e Machine Learning.
 
-> 🚀 **Visite o portfólio:** [Link do projeto](#getting-started)
+> 🚀 **Visite o portfólio:** [Link do projeto](https://codeestefane.github.io/codeestefane.io/)
 
 ---
 
